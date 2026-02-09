@@ -202,11 +202,6 @@ The trump suit determines card suit for comparisons:
   - Jack of Diamonds is second highest (Left Bower, counts as Hearts)
   - All other Hearts are trump
   - All other Diamonds are NOT trump (except Jack)
-
-## Adding AI Players Later
-
-The Player class is abstract and ready for AI implementation:
-- Implement `make_trump()`, `add_and_discard()`, `lead_card()`, `play_card()`, `ask_go_alone()`
 - Add new player types to `Player_factory()`
 - AI can use the same game rules and validation
 
