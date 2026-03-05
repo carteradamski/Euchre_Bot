@@ -51,7 +51,7 @@ def hand_reward(team1_tricks, team1_calls, going_alone, alone_team1, my_team_is_
         # Lost the hand
         if my_team_called:
             # Got euchred (called trump but lost)
-            return -4.0
+            return -2.0
         else:
             # Lost but didn't call trump
             return -1.0
